@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Mate SC', serif;
+
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.navbar{
+  background-color: #fff !important;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:rgb(61, 15, 88)  !important;
+}
+.nav-link{
+  font-size: 1.5rem !important;
+}
+.active-nav{
+  font-weight: bold !important;
+  border-bottom: 1px solid rgb(17, 141, 120) !important;
+}
+
+.nav-link:hover{
+  color: rgb(42, 190, 209) !important;
+}
+.brand-name{
+  color: rgb(42, 190, 209) !important;
+}
+
+.btn-get-started{
+  border:1px solid rgb(42, 190, 209);
+  padding: 7px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.btn-get-started:hover{
+  background-color: rgb(99, 212, 247);
+  color:black;
+ }
+ .home-img{
+   border-radius: 10px;
+   width: 100%;
+ }
+ .header-img{
+   overflow: hidden;
+ }
+
+ 
+ footer{
+   position:fixed;
+   bottom:0px;
+ }
+ .animate__shakeY{
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+ }
